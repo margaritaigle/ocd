@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Saira+Condensed&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --claret: #6E0D25;
+    --cream: #FFFFB3;
+    --earth-yellow: #DCAB6B;
+    --sepia-brown: #774E24;
+    --seal-brown: #6A381F;
+    --dark-brown: #420000;
+    --olive-brown: #9E885D;
+    --white: #FFFF;
+    --black: #000000;
+    --cream-lighter: #ffffeb;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream-lighter);
+}
