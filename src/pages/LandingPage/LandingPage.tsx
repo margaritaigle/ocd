@@ -1,12 +1,23 @@
 import { Header } from "../../components/Header/Header";
-import StTeresa from "./stateresa-long.jpg";
+import Shield from "./assets/escudo.png";
+import StTeresa from "./assets/stateresa-long2.jpg";
+import Writing from "./assets/escrito-cut.jpg";
 import "./LandingPage.css";
 
 export const LandingPage = () => {
   return (
     <>
       <Header />
-      <img src={StTeresa} className="saint-teresa-img" />
+      <section className="wrapper">
+        <div className="title">
+          <h1>Carmelitas Descalzas Uruguay</h1>
+          <img className="shield" src={Shield} />
+        </div>
+        <div className="images-container">
+          <img src={Writing} className="writing-img" />
+          <img src={StTeresa} className="saint-teresa-img" />
+        </div>
+      </section>
       <section className="landing-info">
         <h1>Un poco de historia...</h1>
         <p>

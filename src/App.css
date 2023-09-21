@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
 
 * {
     scroll-behavior: smooth;
@@ -20,5 +22,4 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--cream-lighter);
 }

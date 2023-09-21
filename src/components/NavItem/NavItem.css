@@ -1,0 +1,21 @@
+li {
+    display: inline;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+a, a:visited {
+    transition: all 200ms ease;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 500;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: var(--white);
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.6);
+}
