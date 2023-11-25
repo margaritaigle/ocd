@@ -1,11 +1,22 @@
 import "./NavItem.css";
+import { Link } from "react-router-dom";
 
-export const NavItem = ({ handleClick, title, href }: { handleClick: any, title: string, href?: string }) => {
+export const NavItem = ({
+  handleClick,
+  title,
+  route,
+}: {
+  handleClick: any;
+  title: string;
+  route?: string;
+}) => {
   return (
     <li>
-      <a href={href} onClick={(ev) => handleClick(ev, title)}>
-        {title}
-      </a>
+      {route ? (
+        <Link to={route}>{title}</Link>
+      ) : (
+        <a onClick={(ev) => handleClick(ev, title)}>{title}</a>
+      )}
     </li>
   );
 };

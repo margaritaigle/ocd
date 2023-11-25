@@ -2,9 +2,9 @@ import { Header } from "../../components/Header/Header";
 import Shield from "./assets/escudo.png";
 import StTeresa from "./assets/stateresa-long2.jpg";
 import Writing from "./assets/escrito-cut.jpg";
-import "./LandingPage.css";
+import "./MainPage.css";
 
-export const LandingPage = () => {
+export const MainPage = () => {
   return (
     <>
       <Header />

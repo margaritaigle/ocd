@@ -1,10 +1,10 @@
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import { LandingPage } from "./pages/LandingPage/LandingPage";
-
+import { router } from "./utils/routes/mainRouter.tsx";
 function App() {
   return (
     <>
-      <LandingPage />
+      <RouterProvider router={router} />
     </>
   );
 }
