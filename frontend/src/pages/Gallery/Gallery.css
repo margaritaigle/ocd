@@ -17,3 +17,55 @@
     opacity: .6;
     content: ' ';
 }
+
+.phrase-container {
+    position: relative;
+    top: -34%;
+    left: 0%;
+    width: 60%;
+}
+
+.phrase {
+    font-family: 'Fondamento';
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+}
+
+.author {
+    font-family: 'Fondamento';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+
+@media (max-width: 900px) {
+    .phrase {
+        font-size: 28px;
+    }
+
+    .author {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 540px) {
+    .phrase {
+        font-size: 20px;
+    }
+
+    .author {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .phrase {
+        font-size: 16px;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+}

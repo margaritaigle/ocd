@@ -3,4 +3,4 @@ import HnaTeresa2 from "./hnateresa2.jpg";
 import VickyMagui from "./vicky&magui.jpg";
 import carmelo1 from "./carmelo1.jpg";
 
-export const OCDImages = [HnaTeresa1, HnaTeresa2, VickyMagui, carmelo1];
+export const OCDImages = [HnaTeresa1, carmelo1, HnaTeresa2, VickyMagui];
