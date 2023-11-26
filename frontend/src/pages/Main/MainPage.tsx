@@ -1,4 +1,3 @@
-import { Header } from "../../components/Header/Header";
 import Shield from "./assets/escudo.png";
 import StTeresa from "./assets/stateresa-long2.jpg";
 import Writing from "./assets/escrito-cut.jpg";
@@ -7,7 +6,6 @@ import "./MainPage.css";
 export const MainPage = () => {
   return (
     <>
-      <Header />
       <section className="wrapper">
         <div className="title">
           <h1>Carmelitas Descalzas Uruguay</h1>
