@@ -7,17 +7,6 @@
     justify-content: center;
 }
 
-.gallery-container::before {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    content: "";
-    background-size: cover;
-    background-image: url('./assets/fonditopapelviejo.jpg');
-    opacity: .6;
-    content: ' ';
-}
-
 .phrase-container {
     position: relative;
     top: -34%;
