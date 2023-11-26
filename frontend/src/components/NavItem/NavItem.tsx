@@ -13,7 +13,9 @@ export const NavItem = ({
   return (
     <li>
       {route ? (
-        <Link to={route}>{title}</Link>
+        <Link onClick={(ev) => handleClick(ev, title)} to={route}>
+          {title}
+        </Link>
       ) : (
         <a onClick={(ev) => handleClick(ev, title)}>{title}</a>
       )}
