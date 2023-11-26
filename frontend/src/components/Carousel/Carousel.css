@@ -14,6 +14,12 @@ button {
     position: relative;
 }
 
+button:focus {
+    outline: none;
+    background-color: rgba(68, 36, 23, 0.1);
+    border-radius: 50%;
+}
+
 .left-arrow {
     left: -40%;
 }
@@ -26,6 +32,13 @@ button {
     cursor: pointer;
 }
 
+svg {
+    padding-top: 5px;
+}
+
+svg:focus {
+    outline: none;
+}
 
 .left-arrow svg {
     width: 30px;
@@ -75,7 +88,6 @@ button {
 
 
 @media (max-width: 500px) {
-
     .carousel-container {
         top: 40%;
     }
