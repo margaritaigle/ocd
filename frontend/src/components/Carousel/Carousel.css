@@ -14,7 +14,7 @@ button {
     position: relative;
 }
 
-button:focus {
+button:focus-visible {
     outline: none;
     background-color: rgba(68, 36, 23, 0.1);
     border-radius: 50%;
