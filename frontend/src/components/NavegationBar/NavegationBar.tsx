@@ -15,7 +15,7 @@ export enum NAV_CLICK_ACTIONS {
 export const NavegationBar = () => {
   const navItems = [
     { title: NAV_CLICK_ACTIONS.INICIO, route: "/" },
-    { title: NAV_CLICK_ACTIONS.CONTACTO, route: "galería" },
+    { title: NAV_CLICK_ACTIONS.GALERIA, route: "galería" },
     { title: NAV_CLICK_ACTIONS.MONASTERIOS },
     { title: NAV_CLICK_ACTIONS.CONTACTO },
   ];
