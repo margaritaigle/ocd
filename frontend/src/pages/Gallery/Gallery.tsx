@@ -1,5 +1,5 @@
 import { Carousel } from "../../components/Carousel/Carousel";
-import { OCDImages } from "./assets";
+import { OCDImages } from "../../../public";
 import "./Gallery.css";
 
 export const Gallery = () => {
