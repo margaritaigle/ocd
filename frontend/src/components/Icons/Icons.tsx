@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes } from "react";
 
-export const LeftArrow = (props: ButtonHTMLAttributes<any>) => (
+export const LeftArrow = (props: ButtonHTMLAttributes<HTMLButtonElement>) => (
   <button {...props}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 112" fill="none">
       <g filter="url(#filter0_d_55_151)">
@@ -10,7 +10,7 @@ export const LeftArrow = (props: ButtonHTMLAttributes<any>) => (
   </button>
 );
 
-export const RightArrow = (props: ButtonHTMLAttributes<any>) => (
+export const RightArrow = (props: ButtonHTMLAttributes<HTMLButtonElement>) => (
   <button {...props}>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 112" fill="none">
       <g filter="url(#filter0_d_55_152)">

@@ -12,17 +12,18 @@ export const Carousel = ({ images }: { images: Array<string> }) => {
   const handleClick = (action: ACTIONS) => {
     const reorderedImagesCopy: string[] = [...reorderedImages];
     switch (action) {
-      case ACTIONS.LEFT_ARROW:
+      case ACTIONS.LEFT_ARROW: {
         const lastImage = reorderedImagesCopy.pop() as string;
         reorderedImagesCopy.unshift(lastImage);
         setReorderedImages(reorderedImagesCopy);
         break;
-
-      case ACTIONS.RIGHT_ARROW:
+      }
+      case ACTIONS.RIGHT_ARROW: {
         const firstImage = reorderedImagesCopy.shift() as string;
         reorderedImagesCopy.push(firstImage);
         setReorderedImages(reorderedImagesCopy);
         break;
+      }
     }
   };
   return (

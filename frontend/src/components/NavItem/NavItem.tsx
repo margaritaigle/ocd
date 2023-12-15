@@ -1,3 +1,4 @@
+import { NAV_CLICK_ACTIONS } from "../NavegationBar/NavegationBar";
 import "./NavItem.css";
 import { Link } from "react-router-dom";
 
@@ -6,18 +7,18 @@ export const NavItem = ({
   title,
   route,
 }: {
-  handleClick: any;
-  title: string;
+  handleClick: (title: NAV_CLICK_ACTIONS) => void;
+  title: NAV_CLICK_ACTIONS;
   route?: string;
 }) => {
   return (
     <li>
       {route ? (
-        <Link onClick={(ev) => handleClick(ev, title)} to={route}>
+        <Link onClick={() => handleClick(title)} to={route}>
           {title}
         </Link>
       ) : (
-        <a onClick={(ev) => handleClick(ev, title)}>{title}</a>
+        <a onClick={() => handleClick(title)}>{title}</a>
       )}
     </li>
   );

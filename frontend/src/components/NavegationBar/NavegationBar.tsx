@@ -1,26 +1,26 @@
 import { NavItem } from "../NavItem/NavItem";
 import "./NavegationBar.css";
 
-enum NAV_CLICK_ACTIONS {
+export enum NAV_CLICK_ACTIONS {
   INICIO = "Inicio",
   GALERIA = "Galería",
   MONASTERIOS = "Monasterios",
   CONTACTO = "Contacto",
 }
 
-const floridaFacebookUrl =
-  "https://www.facebook.com/Carmelitas.Descalzas.Florida.Uruguay/?locale=es_LA";
-const mvdInstagramUrl = "https://www.instagram.com/monjascarmelitas/?hl=es";
+// const floridaFacebookUrl =
+// "https://www.facebook.com/Carmelitas.Descalzas.Florida.Uruguay/?locale=es_LA";
+// const mvdInstagramUrl = "https://www.instagram.com/monjascarmelitas/?hl=es";
 
 export const NavegationBar = () => {
   const navItems = [
-    { title: "Inicio", route: "/" },
-    { title: "Galería", route: "galería" },
-    { title: "Monasterios" },
-    { title: "Contacto" },
+    { title: NAV_CLICK_ACTIONS.INICIO, route: "/" },
+    { title: NAV_CLICK_ACTIONS.CONTACTO, route: "galería" },
+    { title: NAV_CLICK_ACTIONS.MONASTERIOS },
+    { title: NAV_CLICK_ACTIONS.CONTACTO },
   ];
 
-  function handleClick(ev: any, selectedNavItem: NAV_CLICK_ACTIONS) {
+  function handleClick(selectedNavItem: NAV_CLICK_ACTIONS) {
     switch (selectedNavItem) {
       case NAV_CLICK_ACTIONS.INICIO:
         window.scrollTo(0, 0);
