@@ -1,0 +1,19 @@
+.main-title {
+  margin-bottom: 0 !important;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.1s ease;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container.hidden {
+  opacity: 0;
+}

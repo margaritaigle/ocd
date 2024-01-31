@@ -16,7 +16,10 @@ export const NavegationBar = () => {
     { title: "Contacto" },
   ];
 
-  function handleClick(selectedNavItem: NAV_CLICK_ACTIONS) {
+  function handleClick(
+    ev: React.MouseEvent,
+    selectedNavItem: NAV_CLICK_ACTIONS
+  ) {
     switch (selectedNavItem) {
       case NAV_CLICK_ACTIONS.INICIO:
         window.scrollTo(0, 0);
