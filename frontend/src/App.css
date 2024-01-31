@@ -1,25 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Saira+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&family=Saira+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 :root {
-    --claret: #6E0D25;
-    --cream: #FFFFB3;
-    --earth-yellow: #DCAB6B;
-    --sepia-brown: #774E24;
-    --seal-brown: #6A381F;
-    --dark-brown: #442417;
-    --olive-brown: #9E885D;
-    --white: #FFFF;
-    --black: #000000;
-    --cream-lighter: #ffffeb;
+  --claret: #6e0d25;
+  --cream: #ffffb3;
+  --earth-yellow: #dcab6b;
+  --sepia-brown: #774e24;
+  --seal-brown: #6a381f;
+  --carmelite-brown: #613214;
+  --dark-brown: #442417;
+  --olive-brown: #9e885d;
+  --white: #ffff;
+  --black: #000000;
+  --shadow-gray: rgba(0, 0, 0, 0.25);
+  --cream-lighter: #ffffeb;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }

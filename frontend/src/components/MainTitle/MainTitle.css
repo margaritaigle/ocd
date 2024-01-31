@@ -1,0 +1,34 @@
+.main-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 20px;
+  margin: 20px auto;
+  padding-bottom: 30px;
+
+  h1 {
+    font-family: "Crimson Text", serif;
+    font-size: 50px;
+    color: var(--carmelite-brown);
+    margin: 0;
+    text-shadow: 2px 2px 1px var(--shadow-gray);
+  }
+
+  h4 {
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px var(--shadow-gray);
+  }
+
+  img {
+    width: 104px;
+  }
+}
+
+.main-title.border-bottom {
+  border-bottom: 1px solid var(--shadow-gray);
+}

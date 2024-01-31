@@ -1,4 +1,5 @@
 import { ButtonHTMLAttributes } from "react";
+import CarmeliteCrossImg from "../../pages/assets/home/CARMELO-logo-scaled-removebg-preview.png";
 
 export const LeftArrow = (props: ButtonHTMLAttributes<any>) => (
   <button {...props}>
@@ -18,4 +19,8 @@ export const RightArrow = (props: ButtonHTMLAttributes<any>) => (
       </g>
     </svg>
   </button>
+);
+
+export const CarmeliteCross = (props: any) => (
+  <img {...props} src={CarmeliteCrossImg} />
 );
