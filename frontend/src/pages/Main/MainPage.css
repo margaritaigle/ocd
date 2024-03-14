@@ -2,18 +2,34 @@
   margin-bottom: 0 !important;
 }
 
-.image-container {
-  width: 100%;
+.info {
+  margin: 25px;
+}
+
+.info-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  transition: opacity 0.1s ease;
+
+  img {
+    max-width: 25%;
+    min-width: 250px;
+    height: auto;
+  }
 }
 
-.image-container img {
-  width: 100%;
-  height: auto;
+.info h1 {
+  font-family: Fondamento;
+  text-align: center;
 }
 
-.image-container.hidden {
-  opacity: 0;
+.info p {
+  font-family: ALmendra;
+  padding: 0 3vw;
+  text-align: center;
+}
+
+.frase {
+  font-weight: 600;
+  width: 300px;
 }
